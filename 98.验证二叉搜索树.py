@@ -11,7 +11,7 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-
+#
 class Solution:
     def isValidBSTReal(self,root:TreeNode,min:TreeNode,max:TreeNode):
         if root == None:
